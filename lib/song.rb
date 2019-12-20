@@ -40,3 +40,4 @@ else
   hash[genre]
 end 
 end 
+end 
