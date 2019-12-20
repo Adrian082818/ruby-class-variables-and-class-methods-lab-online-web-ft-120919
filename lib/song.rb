@@ -20,8 +20,8 @@ class Song
     @@count 
   end 
   
-  def self.artist 
-    @@artist 
+  def self.artists 
+    @@artists
   end 
   
 end 
