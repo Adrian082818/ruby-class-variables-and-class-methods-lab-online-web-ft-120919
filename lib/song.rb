@@ -4,7 +4,7 @@ class Song
   @@count = 0 
   @@artists = []
   @@genres = []
-  @genre = {}
+  
   
   
   def initialize(name, artist, genre)
@@ -30,7 +30,6 @@ class Song
   end 
   
   def self.genre_count
-    self.genre_count[genre] ||= []
-    self.genre_count[genre] << @genre
+   
   end 
 end 
