@@ -28,8 +28,8 @@ class Song
     @@genres.uniq
   end 
   
-  def self.genre_count 
+  def self.genre_count(songs) 
     self.genre_count[genre] ||= []
-    self.genre_count[genre]
+    self.genre_count[genre] << songs
   end 
 end 
