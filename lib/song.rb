@@ -29,6 +29,6 @@ class Song
   end 
   
   def self.genre_count 
-    
+    self.genre_count[genre] ||=  
   end 
 end 
